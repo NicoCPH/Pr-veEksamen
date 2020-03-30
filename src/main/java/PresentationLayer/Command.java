@@ -26,7 +26,7 @@ abstract class Command {
         commands.put( "shopping", new Shopping() );
         commands.put( "edituser", new EditUser() );
         commands.put( "adminedituser", new AdminEditUser() );
-        commands.put( "dropdown", new addCupcakes() );
+        commands.put( "dropdown", new AddCupcakes() );
         commands.put( "orderline", new OrderLine() );
         commands.put( "redirect", new Redirect() );
         commands.put( "deleteuser", new DeleteUser());
